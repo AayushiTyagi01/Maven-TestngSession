@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Maven-TestngSession(failed)">
+    <classes>
+      <class name="set_auto.stt_Auto">
+        <methods>
+          <include name="Login"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="textverify"/>
+        </methods>
+      </class> <!-- set_auto.stt_Auto -->
+    </classes>
+  </test> <!-- Maven-TestngSession(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
